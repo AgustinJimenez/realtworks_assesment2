@@ -1,0 +1,21 @@
+{
+  "name": "realtworks_assesment2",
+  "version": "1.0.0",
+  "description": "Welcome, candidate! This project contains **intentional issues** that mimic real‑world scenarios. Your task is to refactor, optimize, and fix these problems.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "install-deps": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "@playwright/test": "^1.55.1"
+  }
+}

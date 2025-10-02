@@ -48,3 +48,13 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Playwright test results and reports
+test-results/
+
+# React build output
+frontend/build/
+
+# Test output files
+test-results-*.xml
+test-results-*.json
+
